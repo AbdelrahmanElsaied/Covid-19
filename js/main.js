@@ -1,3 +1,4 @@
+new WOW().init();
 $(document).ready(function(){
     $('.icons,.overlay,.overlay-menu ul li a').click(function() {
         $('.overlay').fadeToggle();
@@ -96,4 +97,3 @@ btn.addEventListener("click", ()=>{
         text.innerHTML = "Light Mode";
     }
 });
-new WOW().init();
